@@ -12,30 +12,18 @@ logo:
   mobile_height: "32px"
   mobile_width: "32px"
   desktop: "images/logo/logoAC.svg"
-  desktop_height: "32px"
-  desktop_width: "120px"
+  desktop_height: "50px"
+  #desktop_width: "120px"
 
 home: 
-  limit_services: 6
+  limit_services: 3
 
 collections:
   services:
     output: true
     sort_by: weight
   team:
-    output: true
-
-
-# Navigation
-main_menu:
-  - name: Accueil
-    link: /
-  - name: Produits
-    link: /produits/
-  - name: À propos
-    link: /a-propos/
-  - name: Contact
-    link: /contact/
+    output: false
 
 defaults:
   - scope:
